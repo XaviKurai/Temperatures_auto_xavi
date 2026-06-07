@@ -23,7 +23,7 @@ jobs:
         run: pip install requests
 
       - name: Run temperature script
-        run: python temperatures.py
+        run: python temperatura.py
 
       - name: Commit and push JSON file
         run: |
